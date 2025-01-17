@@ -1,12 +1,7 @@
-import Layout from "../Layouts/Layout";
-function Home({name}) {
+export default function Home() {
     return (
         <>
-            <h1 className="title">Hello {name}</h1>
+            <h1 className="">Home</h1>
         </>
     );
 }
-
-Home.layout = page => <Layout children={page} />
-
-export default Home;
